@@ -82,7 +82,7 @@ public class TestHbase{
 	//创建表
 	public static void createTable(String tableName,String...cfs) throws IOException {
 		if(tableExist(tableName)) {
-			System.out.println("表已经存在了");
+			System.out.println("表已经存在了11");
 			return;
 		}
 		//创建表描述器
